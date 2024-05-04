@@ -84,4 +84,44 @@ public class AdminPageActions {
 	public void click_ChangePassword() {
 		bc.click(userPage.checkBox_ChangePassword);
 	}
+	public void enter_OrganisationName(String input) {
+		bc.textBox(organisationPage.textBox_OrganisationName,input);
+	}
+	public void enter_NumberOfEmployees(String input) {
+		bc.textBox(organisationPage.textBox_NumberOfEmployees, input);
+	}
+	public void enter_RegistrationNumber(String input)
+	{
+		bc.textBox(organisationPage.textBox_RegistrationNumber, input);
+	}
+	public void enter_TaxID(String input)
+	{
+		bc.textBox(organisationPage.textBox_TaxID, input);
+	}
+	public void enter_Phone(String input) {
+		bc.textBox(organisationPage.textBox_Phone, input);
+	}
+	public void enter_Fax(String input) {
+		bc.textBox(organisationPage.textBox_Fax, input);
+	}
+	public void enter_Email(String input) {
+		bc.textBox(organisationPage.textBox_Email, input);
+	}
+	public void enter_AddressStreet1(String input)
+	{
+		bc.textBox(organisationPage.textBox_AddressStreet1, input);
+	}
+	public void enter_AddressStreet2(String input)
+	{
+		bc.textBox(organisationPage.textBox_AddressStreet2, input);
+	}
+	public void enter_City(String input) {
+		bc.textBox(organisationPage.textBox_City, input);
+	}
+	public void enter_StateProvince(String input) {
+		bc.textBox(organisationPage.textBox_StateProvince, input);
+	}
+	public void enter_ZipPostalCode(String input) {
+		bc.textBox(organisationPage.textBox_ZipPostalCode, input);
+	}
 }
