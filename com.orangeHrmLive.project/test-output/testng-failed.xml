@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OrangeHRM_Test_Suite]" guice-stage="DEVELOPMENT">
+  <test name="AdminPageTest(failed)">
+    <classes>
+      <class name="testCases.AdminPageTest">
+        <methods>
+          <include name="launchURL"/>
+          <include name="editGeneralInformation"/>
+          <include name="pageLogin"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- testCases.AdminPageTest -->
+    </classes>
+  </test> <!-- AdminPageTest(failed) -->
+</suite> <!-- Failed suite [OrangeHRM_Test_Suite] -->
