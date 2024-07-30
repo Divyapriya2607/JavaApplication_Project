@@ -29,6 +29,7 @@ public class DataTypes {
 		double meter=inch*0.0254;
 		System.out.println(inch+" inch is "+meter+" meters");
 	}
+	//sum of all digits
 	public void AddAllDigits() {
 		//565
 		Scanner scanner=new Scanner(System.in);
